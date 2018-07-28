@@ -1,2 +1,2 @@
-# basic-java
+# BasicJava
 Basic Java Tutorial
