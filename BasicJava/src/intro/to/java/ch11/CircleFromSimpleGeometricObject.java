@@ -43,4 +43,19 @@ public class CircleFromSimpleGeometricObject
 				super.getDateCreated() +
 				" and the radius is " + radius);
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + "\nradius is " + radius;
+	}
+	
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof CircleFromSimpleGeometricObject) {
+			return this.radius ==
+					((CircleFromSimpleGeometricObject)o).radius;
+		} else {
+			return this == o;
+		}
+	}
 }
