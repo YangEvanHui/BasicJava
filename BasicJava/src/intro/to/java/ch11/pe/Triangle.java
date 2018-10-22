@@ -1,4 +1,4 @@
-package intro.to.java.ch11.sections;
+package intro.to.java.ch11.pe;
 
 import intro.to.java.ch11.SimpleGeometricObject;
 

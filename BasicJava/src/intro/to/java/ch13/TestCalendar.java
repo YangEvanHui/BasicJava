@@ -10,7 +10,7 @@ public class TestCalendar {
 		
 		System.out.println("Current time is " + new Date());
 		System.out.println("YEAR: " + calendar.get(Calendar.YEAR));
-		System.out.println("MONTH: " + calendar.get(Calendar.MONTH));
+		System.out.println("MONTH: " + (calendar.get(Calendar.MONTH) + 1));
 		System.out.println("DATE: " + calendar.get(Calendar.DATE));
 		System.out.println("HOUR : " + calendar.get(Calendar.HOUR));
 		System.out.println("HOUR_OF_DAY: " +
