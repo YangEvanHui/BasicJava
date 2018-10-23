@@ -7,6 +7,14 @@ public class Faculty extends Employee {
 	public Faculty() {
 	}
 	
+	public Faculty(String name, String address,
+			double officeHours, String rank) {
+		setName(name);
+		setAddress(address);
+		this.officeHours = officeHours;
+		this.rank = rank;
+	}
+	
 	public double getOfficeHours() {
 		return officeHours;
 	}
@@ -21,5 +29,11 @@ public class Faculty extends Employee {
 	
 	public void setRank(String rank) {
 		this.rank = rank;
+	}
+	
+	@Override
+	public String toString() {
+		return "Faculty Name: " + getName() + "\n" +
+				"Office Hours: " + officeHours + "\nRank: " + rank;
 	}
 }
