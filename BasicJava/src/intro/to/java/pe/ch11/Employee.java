@@ -1,6 +1,6 @@
-package intro.to.java.ch11.pe;
+package intro.to.java.pe.ch11;
 
-import intro.to.java.ch10.pe.MyDate;
+import intro.to.java.pe.ch10.MyDate;
 
 public class Employee extends Person {
 	private String office;

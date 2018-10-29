@@ -1,4 +1,4 @@
-package intro.to.java.ch11.pe;
+package intro.to.java.pe.ch11;
 
 public class PE1102 {
 	public static void main(String[] args) {

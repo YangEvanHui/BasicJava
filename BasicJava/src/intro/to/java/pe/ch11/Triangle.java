@@ -1,4 +1,4 @@
-package intro.to.java.ch11.pe;
+package intro.to.java.pe.ch11;
 
 import intro.to.java.ch11.SimpleGeometricObject;
 

@@ -1,4 +1,4 @@
-package intro.to.java.ch10.pe;
+package intro.to.java.pe.ch10;
 
 public class MyDateTest {
 	public static void main(String[] args) {

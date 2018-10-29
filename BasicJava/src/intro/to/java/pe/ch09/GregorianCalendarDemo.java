@@ -1,4 +1,4 @@
-package intro.to.java.ch09.pe;
+package intro.to.java.pe.ch09;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
