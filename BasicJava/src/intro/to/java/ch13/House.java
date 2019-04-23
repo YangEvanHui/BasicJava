@@ -25,9 +25,24 @@ public class House implements Cloneable, Comparable<House> {
 		return whenBuilt;
 	}
 	
+//	@Override
+//	public Object clone() throws CloneNotSupportedException {
+//		return super.clone();
+//	}
+	
 	@Override
-	public Object clone() throws CloneNotSupportedException {
-		return super.clone();
+	public Object clone() {
+		try {
+			// Perform a shallow copy
+			House houseClone = (House)super.clone();
+			
+			// Deep copy on whenBuilt
+			houseClone.whenBuilt = (Date)(whenBuilt.clone());
+			
+			return houseClone;
+		} catch (CloneNotSupportedException e) {
+			return null;
+		}
 	}
 	
 	@Override
